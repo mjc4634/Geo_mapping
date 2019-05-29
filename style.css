@@ -1,0 +1,38 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+
+#map, body, html {
+  height: 100%;
+}
+
+h1, h2, h3, h4 {
+  text-align: center
+}
+
+li {
+  width: 50px;
+  list-style-type: none;
+  margin-bottom: 4px;
+  text-align: center;
+  color: white;
+} 
+
+.legend {
+  background-color: white;
+  opacity: 0.8;
+  padding: 10px;
+  border-radius: 4px;
+}
+
+.leaflet-popup-content-wrapper{
+  background-color: #90afc5;
+  opacity: 0.85;
+  color: whitesmoke;
+}
+
+.legend, h5{
+  text-align: center;
+  font-size: 0.85em;
+}
